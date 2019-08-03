@@ -50,6 +50,6 @@ end
 
 
 def add_s(array)
-  array.each_with_index.collect {|elmnt1, index| [0,1,3]}
+  array.each_with_index.collect {|elmnt1, index| elmnt1[index].length}
   array
 end
