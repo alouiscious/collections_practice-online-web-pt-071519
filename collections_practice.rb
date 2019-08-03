@@ -45,7 +45,6 @@ end
 
 def sum_array(array)
   new_array = []
-  z = 0
   new_array = array.inject {|sum, x| sum + x } 
     new_array
   end
