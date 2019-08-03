@@ -44,9 +44,11 @@ end
 
 
 def sum_array(array)
-  new_array = array.collect do |x, y| 
-    z = x + y
-  new_array
+  new_array = []
+  z = 0
+  array.collect do |x, y| 
+    z = x + y + z
+  new_array 
 end
 
 
