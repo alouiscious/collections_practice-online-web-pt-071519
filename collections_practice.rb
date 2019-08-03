@@ -48,7 +48,8 @@ def sum_array(array)
   z = 0
   array.collect do |x, y| 
     z = x + y + z
-  new_array 
+    z 
+  end
 end
 
 
