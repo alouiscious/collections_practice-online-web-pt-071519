@@ -44,7 +44,7 @@ end
 
 
 def sum_array(array)
-  array.collect {|x, y| }
+  new_array = array.collect {|x, y| x.to-i + y.to_i}
   
 end
 
