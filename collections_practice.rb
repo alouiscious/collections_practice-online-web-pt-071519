@@ -49,7 +49,7 @@ def sum_array(array)
 end
 
 
-def add_s
-  [1, 2].each_with_index.collect {|elmnt1, index| }
+def add_s(array)
+  array[0, 1, 3].each_with_index.collect {|elmnt1, index| }
   
 end
