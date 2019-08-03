@@ -50,13 +50,16 @@ end
 
 
 def add_s(array)
-  new_array = array.each_with_index.collect do |elmnt1, index|  
-    if index != 1
-      "#{elmnt1}s"
-    else
-      elmnt1
-    end
-  end
+   new_array = array.each_with_index.collect {|elmnt1, index| "#{elmnt1}s" if index != 1 : elmnt1}
+   
   new_array
+  # new_array = array.each_with_index.collect do |elmnt1, index|  
+  #   if index != 1
+  #     "#{elmnt1}s"
+  #   else
+  #     elmnt1
+  #   end
+  # end
+  # new_array
   
 end
