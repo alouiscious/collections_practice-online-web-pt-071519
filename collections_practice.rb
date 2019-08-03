@@ -37,7 +37,9 @@ end
 
 
 def find_a(array)
-  array.collect do |x| x.start_with?("a")
+  array.collect do |x| 
+    if x.start_with?("a")
+      return x
     
   end
   
