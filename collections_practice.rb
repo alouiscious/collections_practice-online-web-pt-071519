@@ -46,8 +46,8 @@ end
 def sum_array(array)
   new_array = []
   z = 0
-  array.collect do |x, y| 
-    z = x + y + z
+  new_array = array.inject {|sum, x| sum + x } 
+    
   end
   z
 end
