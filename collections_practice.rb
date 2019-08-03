@@ -50,7 +50,7 @@ end
 
 
 def add_s(array)
-  array.each_with_index.collect {|elmnt1, index| "#{elmnt1}s" if index != 2}
+  new_array = array.each_with_index.collect {|elmnt1, index| "#{elmnt1}s" if index != 2}
 
-    array
+  
 end
