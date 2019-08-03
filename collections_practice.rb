@@ -50,6 +50,8 @@ end
 
 
 def add_s(array)
-  array.each_with_index.collect {|elmnt1, index| elmnt1[index].length}
+  array.each_with_index.collect do |elmnt1, index| 
+    if elmnt1[index] != 2
+      elmnt1.join(s)
   array
 end
