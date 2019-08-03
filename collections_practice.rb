@@ -57,6 +57,6 @@ def add_s(array)
       elmnt1
     end
   end
-
+  new_array
   
 end
