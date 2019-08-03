@@ -39,7 +39,7 @@ end
 def find_a(array)
   new_array = array.collect do |x| 
     x.start_with?("a")
-    return x
+    new_array << x
     
   end
   
