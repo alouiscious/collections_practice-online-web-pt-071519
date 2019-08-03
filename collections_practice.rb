@@ -46,10 +46,10 @@ end
 def sum_array(array)
   new_array = array.inject {|sum, x| sum + x}
   new_array
-
 end
 
 
 def add_s
+  [1, 2].each_with_index.collect {|elmnt1, index| }
   
 end
