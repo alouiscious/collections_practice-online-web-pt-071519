@@ -38,11 +38,8 @@ end
 
 def find_a(array)
   new_array = []
-  array.each do |x| 
-    if x.start_with?("a")
-      
-    end
-    new_array << x
+  array.each {|x| new_array << x if x.start_with?("a")}
+    
   end
   
 end
