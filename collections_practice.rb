@@ -46,12 +46,13 @@ end
 def sum_array(array)
   new_array = []
   array.inject(:+)
-  array
-  
   # array.inject do |sum, x| 
   #   sum + x
   #   new_array << sum
-  # end
+  end  
+  array
+  
+
 end
 
 
